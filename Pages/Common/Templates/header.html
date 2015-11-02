@@ -1,0 +1,13 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li ng-repeat="navLink in navLinks"
+                ng-click="setActiveLink(navLink.name)"
+                ng-show="user.userName !== '' || (user.userName === '' && navLink.isDisplayedForNotLoggedInUser)"
+                class="{{navLink.isActive ? 'active' : ''}} {{navLink.floatRight ? 'right' : ''}}">
+                <a ng-href="{{navLink.url}}">{{navLink.text}}</a>
+            </li>
+            <li class="right" ng-if="!!user.userName">Welcome, <strong>{{user.userName}}</strong></li>
+        </ul>
+    </div>
+</nav>
