@@ -10,17 +10,17 @@ angular.module('GitHubClient.Common').controller('MainCtrl', function ($scope, L
         {
             name: 'profile',
             text: 'Profile',
-            url: '/users/alekseychepovoi'
+            url: '/users/' + $scope.user.userName
         },
         {
             name: 'followers',
             text: 'Followers',
-            url: '/users/alekseychepovoi/followers'
+            url: '/users/' + $scope.user.userName + '/followers'
         },
         {
             name: 'following',
             text: 'Following',
-            url: '/users/alekseychepovoi/following'
+            url: '/users/' + $scope.user.userName + '/following'
         },
         {
             name: 'logOut',
@@ -31,6 +31,7 @@ angular.module('GitHubClient.Common').controller('MainCtrl', function ($scope, L
     ];
     $scope.ucPopupIsActive = false;
     $scope.user = LoginSvc.user;
+
 
     $scope.setActiveLink = setActiveLink;
     $scope.showUCPopup = showUnderConstructionPopup;
