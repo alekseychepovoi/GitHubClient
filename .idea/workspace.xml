@@ -1,8 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4b0ab8c8-7af8-4cfc-ba63-3bed8abe6851" name="Default" comment="" />
     <ignored path="GitHub client (Angular sample app).iws" />
+=======
+    <list default="true" id="352997c8-e844-46ca-abbb-74d8a5c7492a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/GitHubClient.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\grunt\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\grunt\bs-commonjs-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\grunt\configBridge.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\grunt\sauce_browsers.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\affix.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\alert.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\button.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\modal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\popover.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\tab.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\js\transition.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\badges.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\glyphicons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\input-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\jumbotron.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\media.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\alerts.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\background-variant.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\background-variant.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\border-radius.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\border-radius.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\center-block.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\center-block.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\clearfix.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\clearfix.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\forms.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\gradients.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\gradients.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\grid-framework.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\grid-framework.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\grid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\hide-text.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\hide-text.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\image.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\image.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\labels.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\labels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\list-group.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\list-group.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\nav-divider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\nav-divider.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\nav-vertical-align.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\nav-vertical-align.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\opacity.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\opacity.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\panels.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\progress-bar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\progress-bar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\reset-filter.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\reset-filter.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\reset-text.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\reset-text.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\resize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\resize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\responsive-visibility.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\responsive-visibility.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\size.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\size.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\tab-focus.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\tab-focus.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\table-row.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\table-row.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\text-emphasis.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\text-emphasis.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\text-overflow.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\text-overflow.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\vendor-prefixes.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\mixins\vendor-prefixes.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\normalize.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\panels.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\print.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\print.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\responsive-embed.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\responsive-embed.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\theme.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\theme.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\variables.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\GitHubClient\node_modules\bootstrap\package.json" afterPath="" />
+    </list>
+    <ignored path="GitHubClient.iws" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +179,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="GitHub client (Angular sample app)" />
@@ -46,6 +211,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+=======
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="GitHubClient" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.254023" vertical-offset="0" max-vertical-offset="870">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="25" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
               <folding />
             </state>
           </provider>
@@ -59,6 +240,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Pages/Common/Templates/header.html" />
         <option value="$PROJECT_DIR$/Assets/Css/main.less" />
         <option value="$PROJECT_DIR$/Assets/Css/home.less" />
@@ -75,6 +257,19 @@
   <component name="NamedScopeManager">
     <order />
   </component>
+=======
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/Pages/Users/Services/userDataSvc.js" />
+        <option value="$PROJECT_DIR$/Pages/Users/Controllers/userProfileCtrl.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Pages/Users/module.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -104,12 +299,16 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="GitHub client (Angular sample app)" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
@@ -139,16 +338,37 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Users" />
+=======
+              <option name="myItemId" value="GitHubClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GitHubClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GitHubClient" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="GitHub client (Angular sample app)" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GitHub client (Angular sample app)" />
+=======
+              <option name="myItemId" value="GitHubClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GitHubClient" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -156,6 +376,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="GitHub client (Angular sample app)" />
@@ -187,6 +408,30 @@
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+=======
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
@@ -196,6 +441,7 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
@@ -203,6 +449,8 @@
       <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
+=======
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
@@ -213,6 +461,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+<<<<<<< HEAD
       <node-options />
       <gulpfile />
       <tasks />
@@ -232,10 +481,24 @@
       <created>1446473149336</created>
       <option name="number" value="Default" />
       <updated>1446473149336</updated>
+=======
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="352997c8-e844-46ca-abbb-74d8a5c7492a" name="Default" comment="" />
+      <created>1446491968545</created>
+      <option name="number" value="Default" />
+      <updated>1446491968545</updated>
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -256,6 +519,29 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3365801" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -269,51 +555,94 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Pages/Common/Templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/Assets/Css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03908046" vertical-offset="0" max-vertical-offset="870">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Css/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Home/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+          <caret line="0" column="46" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="46" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Common/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Pages/Common/Controllers/mainCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Users/Templates/userProfile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="391">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="38" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6980462">
@@ -326,34 +655,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54063606">
           <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Common/Templates/underConstructionPopup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01954023" vertical-offset="0" max-vertical-offset="870">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018973215" vertical-offset="0" max-vertical-offset="896">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Css/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5106007">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Common/Controllers/mainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41183037" vertical-offset="158" max-vertical-offset="1054">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="34" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Css/users.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20101352">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Users/Services/userDataSvc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Assets/Css/users.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30035335">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Users/Controllers/userProfileCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="14" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Pages/Common/Templates/underConstructionPopup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -368,20 +735,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23448277">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Users/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3794643" vertical-offset="0" max-vertical-offset="896">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Pages/Common/Controllers/mainCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45535713">
           <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pages/Users/Controllers/userFollowersCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.094866075" vertical-offset="0" max-vertical-offset="896">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-12.423077">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
@@ -400,6 +781,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30357143">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+=======
+        <state vertical-scroll-proportion="0.254023" vertical-offset="0" max-vertical-offset="870">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="25" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
           <folding />
         </state>
       </provider>

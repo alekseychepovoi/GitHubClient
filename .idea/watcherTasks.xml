@@ -8,7 +8,11 @@
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="less" />
       <option name="immediateSync" value="true" />
+<<<<<<< HEAD
       <option name="name" value="Less" />
+=======
+      <option name="name" value="LESS" />
+>>>>>>> 70d04374a66e719307b0d4a0a14f31efb0e3c352
       <option name="output" value="$FileNameWithoutExtension$.css" />
       <option name="outputFilters">
         <array>
