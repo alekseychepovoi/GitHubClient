@@ -4,7 +4,9 @@ angular.module('GitHubClient.Users').controller('UserFollowersCtrl', function ($
     $scope.setActiveFollower = setActiveFollower;
 
 
-    setActiveFollower($scope.userFollowers[0]);
+    if($scope.userFollowers.length !== 0) {
+        setActiveFollower($scope.userFollowers[0]);
+    }
 
     function setActiveFollower(activeFollower) {
         $scope.userFollowers.forEach(function (follower) {

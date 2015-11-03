@@ -1,21 +1,15 @@
 angular.module('GitHubClient.Common').factory('LoginSvc', function ($location) {
-    var user = {
-            userName: ''
-        };
-
     return {
         logInUser: logInUser,
-        logOutUser: logOutUser,
-        user: user
+        logOutUser: logOutUser
     };
 
     function logInUser(newUserName) {
-        user.userName = newUserName;
         $location.path('users/' + newUserName);
     }
 
     function logOutUser() {
-        user.userName = '';
-        return 'home'; // redirect to home page
+
+        return 'home'; // return a link to home page
     }
 });
