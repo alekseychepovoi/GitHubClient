@@ -1,4 +1,4 @@
-angular.module('GitHubClient.Common').controller('MainCtrl', function ($scope, LoginSvc) {
+angular.module('GitHubClient.Common').controller('MainCtrl', function ($scope, $location) {
     $scope.navLinks = [
         {
             name: 'home',
@@ -9,18 +9,15 @@ angular.module('GitHubClient.Common').controller('MainCtrl', function ($scope, L
         },
         {
             name: 'profile',
-            text: 'Profile',
-            url: '/users/' + $scope.user.userName
+            text: 'Profile'
         },
         {
             name: 'followers',
-            text: 'Followers',
-            url: '/users/' + $scope.user.userName + '/followers'
+            text: 'Followers'
         },
         {
             name: 'following',
-            text: 'Following',
-            url: '/users/' + $scope.user.userName + '/following'
+            text: 'Following'
         },
         {
             name: 'logOut',
@@ -29,18 +26,23 @@ angular.module('GitHubClient.Common').controller('MainCtrl', function ($scope, L
             floatRight: true
         }
     ];
+    $scope.userIsLoggedIn = false;
     $scope.ucPopupIsActive = false;
-    $scope.user = LoginSvc.user;
-
-
     $scope.setActiveLink = setActiveLink;
     $scope.showUCPopup = showUnderConstructionPopup;
     $scope.hideUCPopup = hideUnderConstructionPopup;
 
+    $scope.$on('logInEvent', function (event, userName) {
+        _logInUser(userName);
+        setActiveLink('profile');
+    });
 
+
+    // public functions
     function setActiveLink(linkName) {
         if(linkName === 'logOut') {
-            linkName = LoginSvc.logOutUser();
+            _logOutUser();
+            linkName = 'home';
         }
         $scope.navLinks.forEach(function (navLink) {
             navLink.isActive = navLink.name === linkName;
@@ -53,5 +55,22 @@ angular.module('GitHubClient.Common').controller('MainCtrl', function ($scope, L
 
     function hideUnderConstructionPopup() {
         $scope.ucPopupIsActive = false;
+    }
+
+
+    // private functions
+    function _logInUser(userName) {
+        $scope.navLinks[1].url = '/users/' + userName;
+        $scope.navLinks[2].url = '/users/' + userName + '/followers';
+        $scope.navLinks[3].url = '/users/' + userName + '/following';
+
+        $scope.userName = userName;
+        $scope.userIsLoggedIn = true;
+        $location.path('users/' + userName);
+    }
+
+    function _logOutUser() {
+        $scope.userIsLoggedIn = false;
+        $location.path('home');
     }
 });

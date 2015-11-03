@@ -1,8 +1,7 @@
-angular.module('GitHubClient.Home').controller('HomeCtrl', function ($scope, LoginSvc) {
+angular.module('GitHubClient.Home').controller('HomeCtrl', function ($scope) {
     $scope.logInUser = logInUser;
 
     function logInUser(userName) {
-        LoginSvc.logInUser(userName);
-        $scope.userName = '';
+        $scope.$emit('logInEvent', userName);
     }
 });
