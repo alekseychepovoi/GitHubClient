@@ -10,8 +10,14 @@
         </ul>
         <div class="col-sm-9">
             <h2>repositories</h2>
+            <div class="btn-group">
+                <button class="btn btn-default {{isOnlyReposWithIssues ? '' : 'active'}}"
+                        ng-click="showAllRepos()">All repos</button>
+                <button class="btn btn-default {{isOnlyReposWithIssues ? 'active' : ''}}"
+                        ng-click="showReposWithIssuesOnly()">Only with issues</button>
+            </div>
             <ul id="repositories">
-               <li ng-repeat="repo in activeFollower.repositories">
+               <li ng-repeat="repo in activeFollower.filteredRepositories">
                    <p>clone_url: <a ng-href="{{repo.clone_url}}">{{repo.clone_url}}</a></p>
                </li>
             </ul>

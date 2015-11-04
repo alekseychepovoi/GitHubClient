@@ -19,6 +19,9 @@
 .blueBackground {
   background: #5bc0de;
 }
+#userFollowers .btn-group {
+  margin-bottom: 10px;
+}
 #userFollowers li,
 #userProfile li {
   list-style: none;

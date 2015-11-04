@@ -5,11 +5,12 @@
         <div class="col-sm-9">
             <h2>{{userProfileData.name}}</h2>
             <ul>
-                <li><strong>ID</strong>: {{userProfileData.id}}</li>
-                <li><strong>Login</strong>: {{userProfileData.login}}</li>
-                <li><strong>Company</strong>: {{userProfileData.company}}</li>
-                <li><strong>Email</strong>: {{userProfileData.email}}</li>
-                <li><strong>Location</strong>: {{userProfileData.location}}</li>
+                <li><strong>ID</strong>: {{::userProfileData.id}}</li>
+                <li><strong>Login</strong>: {{::userProfileData.login}}</li>
+                <li><strong>Company</strong>: {{::userProfileData.company}}</li>
+                <li><strong>Email</strong>: {{::userProfileData.email}}</li>
+                <li><strong>Location</strong>: {{::userProfileData.location}}</li>
+                <li><strong>Created at</strong>: {{::userProfileData.created_at | date : fullDate}}</li>
             </ul>
         </div>
     </div>
