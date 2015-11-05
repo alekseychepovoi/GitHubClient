@@ -1,10 +1,8 @@
-angular.module('GitHubClient.Users').controller('UserFollowersCtrl', function ($scope, UserDataSvc, $filter, initData, isFollowers) {
+angular.module('GitHubClient.Users').controller('UserFollowersCtrl', function ($scope, UserDataSvc, initData, isFollowers) {
     $scope.isFollowers = isFollowers;
     $scope.userFollowers = initData;
 
     $scope.setActiveFollower = setActiveFollower;
-    $scope.showAllRepos = showAllRepos;
-    $scope.showReposWithIssuesOnly = showReposWithIssuesOnly;
 
 
     // initial setup
@@ -27,17 +25,6 @@ angular.module('GitHubClient.Users').controller('UserFollowersCtrl', function ($
     function loadUserRepos(user) {
         UserDataSvc.getUserRepositories(user.login).then(function (data) {
             user.allRepositories = data;
-            showAllRepos();
         });
-    }
-
-    function showAllRepos () {
-        $scope.isOnlyReposWithIssues = false;
-        $scope.activeFollower.filteredRepositories = $scope.activeFollower.allRepositories;
-    }
-
-    function showReposWithIssuesOnly() {
-        $scope.isOnlyReposWithIssues = true;
-        $scope.activeFollower.filteredRepositories = $filter('hasIssuesFilter')($scope.activeFollower.allRepositories, $scope.isOnlyReposWithIssues);
     }
 });

@@ -61,9 +61,6 @@ ul#repositories {
 #userProfile img {
   margin-top: 20px;
 }
-#userProfile .btn {
-  margin-top: 20px;
-}
 .bold {
   font-weight: 400;
 }
@@ -79,4 +76,7 @@ ul#repositories {
 .p15 {
   padding: 15px;
   border: 1px;
+}
+.mt20 {
+  margin-top: 20px;
 }

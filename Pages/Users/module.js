@@ -4,8 +4,17 @@ angular.module('GitHubClient.Users', []).config(function($routeProvider) {
             templateUrl: '/pages/users/templates/userProfile.html',
             controller: 'UserProfileCtrl',
             resolve: {
-                initData: function (UserDataSvc, $route) {
-                    return UserDataSvc.getUserProfile($route.current.params.userName);
+                initData: function (UserDataSvc, $route, $q) {
+                    var userName = $route.current.params.userName,
+                        userProfile = UserDataSvc.getUserProfile(userName),
+                        userRepositories = UserDataSvc.getUserRepositories(userName);
+
+                    return $q.all([userProfile, userRepositories]).then(function (res) {
+                        return {
+                            profile: res[0],
+                            allRepositories: res[1]
+                        }
+                    });
                 }
             }
         })
@@ -14,7 +23,22 @@ angular.module('GitHubClient.Users', []).config(function($routeProvider) {
             controller: 'UserFollowersCtrl',
             resolve: {
                 initData: function (UserDataSvc, $route) {
-                    return UserDataSvc.getUserFollowers($route.current.params.userName);
+                    var userFollowers;
+                    return UserDataSvc.getUserFollowers($route.current.params.userName)
+                        .then(function (followers) {
+                            userFollowers = followers;
+                            if(followers.length !== 0) {
+                                return [];
+                            }
+                            return UserDataSvc.getUserRepositories(followers[0].login);
+                        })
+                        .then(function (res) {
+                            userFollowers[0].allRepositories = res.data;
+                            return userFollowers;
+                        })
+                        .catch(function (err) {
+                            return err; // just for example here
+                        });
                 },
                 isFollowers: function () {
                     return true;
