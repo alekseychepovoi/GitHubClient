@@ -19,12 +19,13 @@
 .blueBackground {
   background: #5bc0de;
 }
-#userFollowers .btn-group {
-  margin-bottom: 10px;
-}
 #userFollowers li,
 #userProfile li {
   list-style: none;
+}
+#userFollowers .btn-group,
+#userProfile .btn-group {
+  margin-bottom: 10px;
 }
 ul#followersNavigation li {
   padding: 10px;
@@ -54,12 +55,12 @@ ul#repositories {
   border: 1px solid lightgray;
   border-radius: 4px;
 }
-#userProfile ul {
-  padding: 0;
-  font-size: 18px;
-}
 #userProfile img {
   margin-top: 20px;
+}
+#userInfo ul {
+  padding: 0;
+  font-size: 18px;
 }
 .bold {
   font-weight: 400;
@@ -79,4 +80,17 @@ ul#repositories {
 }
 .mt20 {
   margin-top: 20px;
+}
+#underConstructionPopup {
+  position: absolute;
+  top: 20%;
+  margin-left: -300px;
+  left: 50%;
+}
+.bg-danger,
+.bg-info {
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 20px;
 }

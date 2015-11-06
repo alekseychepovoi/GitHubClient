@@ -1,5 +1,9 @@
-angular.module('GitHubClient.Users')
-    .directive('userRepositories', function($filter) {
+(function () {
+    angular
+        .module('GitHubClient.Users')
+        .directive('userRepositories', userRepositories);
+
+    function userRepositories($filter) {
         return {
             scope: {
                 currentUser: '=user'
@@ -22,4 +26,5 @@ angular.module('GitHubClient.Users')
             },
             templateUrl: '/Pages/Users/Templates/DirectiveTmpls/userRepositories.html'
         };
-    });
+    }
+})();

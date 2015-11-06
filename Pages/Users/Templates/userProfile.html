@@ -1,10 +1,10 @@
-<div id="user.profile">
+<div id="userProfile">
     <div class="row">
         <img ng-src="{{user.profile.avatar_url}}"
              class="col-sm-3">
         <div class="col-sm-9">
             <h2>{{user.profile.name}}</h2>
-            <ul>
+            <ul id="userInfo">
                 <li><strong>ID</strong>: {{::user.profile.id}}</li>
                 <li><strong>Login</strong>: {{::user.profile.login}}</li>
                 <li><strong>Company</strong>: {{::user.profile.company}}</li>

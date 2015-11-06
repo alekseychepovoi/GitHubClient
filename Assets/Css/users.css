@@ -1,9 +1,10 @@
-#userFollowers .btn-group {
-  margin-bottom: 10px;
-}
 #userFollowers li,
 #userProfile li {
   list-style: none;
+}
+#userFollowers .btn-group,
+#userProfile .btn-group {
+  margin-bottom: 10px;
 }
 ul#followersNavigation li {
   padding: 10px;
@@ -33,10 +34,10 @@ ul#repositories {
   border: 1px solid lightgray;
   border-radius: 4px;
 }
-#userProfile ul {
-  padding: 0;
-  font-size: 18px;
-}
 #userProfile img {
   margin-top: 20px;
+}
+#userInfo ul {
+  padding: 0;
+  font-size: 18px;
 }

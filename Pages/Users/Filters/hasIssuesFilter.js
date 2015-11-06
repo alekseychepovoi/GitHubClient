@@ -1,16 +1,22 @@
-angular.module('GitHubClient.Users').filter('hasIssuesFilter', function() {
-    return function(repos, isApplied) {
-        var filteredRepos = [];
+(function() {
+    angular
+        .module('GitHubClient.Users')
+        .filter('hasIssuesFilter', hasIssuesFilter);
 
-        if(!isApplied) {
-            return repos;
-        }
+    function hasIssuesFilter() {
+        return function(repos, isApplied) {
+            var filteredRepos = [];
 
-        repos.forEach(function (repo) {
-            if(repo.has_issues) {
-                filteredRepos.push(repo);
+            if(!isApplied) {
+                return repos;
             }
-        });
-        return filteredRepos;
-    };
-});
+
+            repos.forEach(function (repo) {
+                if(repo.has_issues) {
+                    filteredRepos.push(repo);
+                }
+            });
+            return filteredRepos;
+        };
+    }
+})();

@@ -1,3 +1,9 @@
-angular.module('GitHubClient.Users').controller('UserProfileCtrl', function ($scope, initData) {
-    $scope.user = initData;
-});
+(function () {
+    angular
+        .module('GitHubClient.Users')
+        .controller('UserProfileCtrl', UserProfileCtrl);
+
+    function UserProfileCtrl ($scope, initData) {
+        $scope.user = initData;
+    }
+})();

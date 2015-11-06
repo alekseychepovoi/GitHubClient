@@ -1,19 +1,25 @@
-angular.module('GitHubClient', [
-    'ngRoute',
-    'GitHubClient.Common',
-    'GitHubClient.Home',
-    'GitHubClient.Users'
-]).config(function($locationProvider, $provide) {
-    $locationProvider.html5Mode({
-        enabled: true,
-        requireBase: false
-    });
+(function () {
+    angular
+        .module('GitHubClient', [
+            'ngRoute',
+            'ngMessages',
+            'GitHubClient.Common',
+            'GitHubClient.Home',
+            'GitHubClient.Users'
+        ]).config(appConfig);
 
-    $provide.decorator('$http', function ($delegate) {
-        $delegate.getDataFromResult = function (result) {
-            return result.data;
-        };
+    function appConfig($locationProvider, $provide) {
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false
+        });
 
-        return $delegate;
-    });
-});
+        $provide.decorator('$http', function ($delegate) {
+            $delegate.getDataFromResult = function (result) {
+                return result.data;
+            };
+
+            return $delegate;
+        });
+    }
+})();

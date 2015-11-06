@@ -1,30 +1,34 @@
-angular.module('GitHubClient.Users').controller('UserFollowersCtrl', function ($scope, UserDataSvc, initData, isFollowers) {
-    $scope.isFollowers = isFollowers;
-    $scope.userFollowers = initData;
+(function () {
+    angular
+        .module('GitHubClient.Users')
+        .controller('UserFollowersCtrl', UserFollowersCtrl);
 
-    $scope.setActiveFollower = setActiveFollower;
+    function UserFollowersCtrl ($scope, UserDataSvc, initData, isFollowers) {
+        $scope.isFollowers = isFollowers;
+        $scope.userFollowers = initData;
+
+        $scope.setActiveFollower = setActiveFollower;
 
 
-    // initial setup
-    if($scope.userFollowers.length !== 0) {
-        setActiveFollower($scope.userFollowers[0]);
-    }
+        // initial setup
+        if($scope.userFollowers.length !== 0) {
+            setActiveFollower($scope.userFollowers[0]);
+        }
 
 
-    function setActiveFollower(activeFollower) {
-        $scope.userFollowers.forEach(function (follower) {
-            follower.isActive = false;
-        });
-        activeFollower.isActive = true;
-        $scope.activeFollower = activeFollower;
-        if(!activeFollower.allRepositories) {
-            loadUserRepos(activeFollower);
+        function setActiveFollower(activeFollower) {
+            $scope.userFollowers.forEach(function (follower) {
+                follower.isActive = false;
+            });
+            activeFollower.isActive = true;
+            $scope.activeFollower = activeFollower;
+            if(!activeFollower.allRepositories) {
+                // load user repos
+                UserDataSvc.getUserRepositories(activeFollower.login).then(function (data) {
+                    activeFollower.allRepositories = data;
+                    activeFollower.filteredRepositories = data;
+                });
+            }
         }
     }
-
-    function loadUserRepos(user) {
-        UserDataSvc.getUserRepositories(user.login).then(function (data) {
-            user.allRepositories = data;
-        });
-    }
-});
+})();
