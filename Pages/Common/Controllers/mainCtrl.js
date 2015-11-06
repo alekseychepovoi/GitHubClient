@@ -21,10 +21,6 @@
                 text: 'Followers'
             },
             {
-                name: 'following',
-                text: 'Following'
-            },
-            {
                 name: 'logOut',
                 text: 'Log out',
                 url: '/',
@@ -67,7 +63,6 @@
         function _logInUser(userName) {
             $scope.navLinks[1].url = '/users/' + userName;
             $scope.navLinks[2].url = '/users/' + userName + '/followers';
-            $scope.navLinks[3].url = '/users/' + userName + '/following';
 
             $scope.userName = userName;
             $scope.userIsLoggedIn = true;

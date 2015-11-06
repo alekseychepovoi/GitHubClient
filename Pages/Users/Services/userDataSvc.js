@@ -10,7 +10,6 @@
             getUserProfile: getUserProfile,
             checkIfProfileExists: checkIfProfileExists,
             getUserFollowers: getUserFollowers,
-            getUserFollowing: getUserFollowing,
             getUserRepositories: getUserRepositories
         };
 
@@ -30,14 +29,6 @@
 
         function getUserFollowers (userName) {
             return $http.get(rootApi + userName + '/followers')
-                .then(function (res) {
-                    _formatUserFollowers(res.data);
-                    return res.data;
-                });
-        }
-
-        function getUserFollowing (userName) {
-            return $http.get(rootApi + userName + '/following')
                 .then(function (res) {
                     _formatUserFollowers(res.data);
                     return res.data;

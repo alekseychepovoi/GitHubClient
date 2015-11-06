@@ -44,21 +44,6 @@
                             .catch(function (err) {
                                 return err; // just for example here
                             });
-                    },
-                    isFollowers: function () {
-                        return true;
-                    }
-                }
-            })
-            .when('/users/:userName/following', {
-                templateUrl: '/pages/users/templates/userFollowers.html',
-                controller: 'UserFollowersCtrl',
-                resolve: {
-                    initData: function (UserDataSvc, $route) {
-                        return UserDataSvc.getUserFollowing($route.current.params.userName);
-                    },
-                    isFollowers: function () {
-                        return false;
                     }
                 }
             });

@@ -3,8 +3,7 @@
         .module('GitHubClient.Users')
         .controller('UserFollowersCtrl', UserFollowersCtrl);
 
-    function UserFollowersCtrl ($scope, UserDataSvc, initData, isFollowers) {
-        $scope.isFollowers = isFollowers;
+    function UserFollowersCtrl ($scope, UserDataSvc, initData) {
         $scope.userFollowers = initData;
 
         $scope.setActiveFollower = setActiveFollower;
